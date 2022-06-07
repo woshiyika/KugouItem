@@ -1,0 +1,228 @@
+.head_music_p {
+    width: 100%;
+    height: 65px;
+}
+
+.head_music {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.head_music a {
+    display: block;
+    height: 25px;
+    width: 94px;
+}
+
+.head_music a img {
+    width: 100%;
+    height: 100%;
+}
+
+.head_music .head_d {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.head_music .head_d a:nth-child(1) {
+    width: 72px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #00baff;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.head_music .head_d a:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    background: linear-gradient(90deg, #f5ce79 0%, #e5bd61 100%);
+}
+
+.head_music .head_d a:nth-child(2) img {
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+.top-back {
+    z-index: 1;
+    padding: 0 40px;
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+}
+
+.top-back p {
+    height: 100%;
+    line-height: 54px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.top-back a {
+    display: block;
+    width: 35px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.top-back a i {
+    width: 13px;
+    height: 23px;
+    margin-top: .687265rem;
+    display: inline-block;
+    background: url(../img/goback_1.png) no-repeat;
+    background-size: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    overflow: hidden;
+}
+
+.img-box img {
+    display: block;
+    width: 100%;
+    margin-top: -85px;
+}
+
+.info-time {
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.info-time span {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.song-list {
+    width: 100%;
+    padding-left: 12px;
+}
+
+.song-list li {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.song-list li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Ranking {
+    width: 100%;
+    height: 100%;
+    padding: 0 45px 0 38px;
+    line-height: 70px;
+}
+
+.Ranking span {
+    width: 100%;
+    font-size: 18px;
+    color: #000;
+}
+
+.item-num {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    padding: 0 9px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item-num.one {
+    background: #e80000;
+    color: #fff;
+}
+
+.item-num.two {
+    background: #ff7200;
+    color: #fff;
+}
+
+.item-num.three {
+    background: #f8b300;
+    color: #fff;
+}
+
+.download {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: 10px;
+    margin-top: -10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/download_icon_2.png)no-repeat;
+    background-size: 100%;
+}
+
+.footer {
+    padding: 16px 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.footer span {
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    background: #2fa1f9;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    cursor: pointer;
+}
